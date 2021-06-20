@@ -1,0 +1,52 @@
+@import "main_style.css";
+
+
+.content__main_article img {
+    width: 725px;
+    height: 450px;
+}
+
+.content__main_title{
+
+}
+.content__main_title h1{
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 35px;
+}
+
+.content__main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: white;
+    max-width: 62.5%;
+    margin-top: 95px;
+    padding-left: 10px;
+}
+
+.content_title_add-feature{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 10px;
+    padding-bottom: 65px;
+}
+
+.content_title_add-feature p{
+    font-size: 10px;
+}
+
+.content__main_article{
+    display: flex;
+    justify-content: flex-start;
+
+    flex-direction: column;
+}
+
+.content__main_article_text{
+    width: 95%;
+    word-break: break-word;
+}

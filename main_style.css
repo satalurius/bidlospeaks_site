@@ -45,8 +45,13 @@ body{
     list-style-type: none;
     width: 530px;
     padding-top: 5px;
+
 }
 
+.header__menu_content a{
+    text-decoration: none;
+    color: white
+}
 .header__menu_login{
     margin-top: 21px;
 
@@ -69,7 +74,7 @@ body{
 
 .content{
     display: flex;
-
+    padding-top: 60px;
     flex-direction: row;
     justify-content: center;
     align-items: center;
@@ -112,7 +117,8 @@ body{
     display: flex;
     flex-direction: column;
     max-width: 750px;
-    justify-content: ;
+    justify-content: space-evenly ;
+
 }
 .content__articles_single{
     max-width: 700px;
