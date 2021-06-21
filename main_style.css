@@ -52,6 +52,11 @@ body{
     text-decoration: none;
     color: white
 }
+
+.header__menu_content a:hover{
+    color: orange;
+}
+
 .header__menu_login{
     margin-top: 21px;
 
